@@ -27,7 +27,7 @@
     "require": {
         "wpackagist-plugin/wordpress-seo": "12.5.*",
         "wpackagist-theme/hueman":"^3.4.32",
-        "wpackagist-theme/understrap":"0.2.9"
+        "wpackagist-theme/understrap":"0.9.4"
     },
     "require-dev": {
         "wpackagist-plugin/query-monitor": "^3.4",
