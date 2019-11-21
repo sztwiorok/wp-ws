@@ -1,0 +1,35 @@
+{
+    "name": "sztwiorok/wp-workshop",
+    "description": "Base for WordPress projcts",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Rafał Sztwiorok",
+            "email": "rafal.sztwiorok@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
+    "extra": {
+        "installer-paths": {
+            "wp-content/plugins/{$name}/": [
+                "type:wordpress-plugin"
+            ],
+            "wp-content/themes/{$name}/": [
+                "type:wordpress-theme"
+            ]
+        }
+    },
+    "require": {
+        "wpackagist-plugin/wordpress-seo": "12.5.*"
+        "wpackagist-theme/hueman":"^3.4.32"
+    },
+    "require-dev": {
+        "wpackagist-plugin/query-monitor": "^3.4",
+        "wpackagist-plugin/theme-check": "20190801.1"
+    }
+}
